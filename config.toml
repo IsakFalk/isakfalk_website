@@ -13,6 +13,7 @@ googleAnalytics = "UA-106408402-1"
     showBorder = true
     backgroundColor = "#efefef"
     font = "Source Sans Pro" # should match the name on Google Fonts!
+    math=true # latex support through KaTeX
     highlight = true
     highlightStyle = "zenburn" # zenburn, gruvbox dark, darkula, tomorrow night eighties
     highlightLanguages = ["bash", "json", "python", "lisp", "tex"]
@@ -23,7 +24,7 @@ googleAnalytics = "UA-106408402-1"
     weight = 1
 
 [[menu.main]]
-    url = "/pages/about.md"
+    url = "/pages/about/"
     name = "About"
     weight = 2
 
@@ -33,7 +34,7 @@ googleAnalytics = "UA-106408402-1"
     weight = 3
 
 [[menu.main]]
-    url = "/project/"
+    url = "/projects/"
     name = "Projects"
     weight = 4
 

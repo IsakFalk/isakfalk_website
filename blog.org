@@ -4,16 +4,14 @@
 #+HUGO_AUTO_SET_LASTMOD: t
 #+EXCLUDE_TAGS: :noexport:
 
-# Hardcode pages from academic theme instead
 * Pages
 :PROPERTIES:
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :noauthor true :nocomment true :nodate true :nopaging true :noread true
-:EXPORT_HUGO_MENU: :menu main
 :EXPORT_HUGO_SECTION: pages
 :EXPORT_HUGO_WEIGHT: auto
 :END:
 
-** about
+** About
 :PROPERTIES:
 :EXPORT_FILE_NAME: about.md
 :END:
@@ -24,7 +22,6 @@ subjects that I find interesting, mainly in the fields of mathematics, machine
 learning, software and around.
 
 Feel free to get in contact or leave a comment :)
-
 
 * Posts
 :PROPERTIES:
@@ -37,12 +34,16 @@ Feel free to get in contact or leave a comment :)
 :END:
 
 
-
 ** Topic                                                 :@sysadmin:
 *** TODO Version controlling dotfiles and backup of computer :productivity:
 :PROPERTIES:
 :EXPORT_FILE_NAME: version-control-dotfiles-and-computer-backup
 :END:
+
+Testing out if latex works, \(\sin(x) = \frac{1}{2}\prod_{i=1}^{\infty}\),
+\begin{equation}
+  y^{2} = x^{2} + z^{2}
+\end{equation}
 
 ** Topic                                                 :@writing:
 *** TODO Sounding smart, being dumb                     :academics:writing:
