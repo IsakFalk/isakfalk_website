@@ -1,5 +1,6 @@
-./content/**/*
-./public/**/*
+/content/**/*
+/content/*
+/public/**/*
 
 # -*- mode: gitignore; -*-
 *~
