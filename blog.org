@@ -1,0 +1,103 @@
+#+STARTUP: content logdone
+#+AUTHOR: Isak Falk
+#+HUGO_BASE_DIR: .
+#+HUGO_AUTO_SET_LASTMOD: t
+#+EXCLUDE_TAGS: :noexport:
+
+# Hardcode pages from academic theme instead
+* Pages
+:PROPERTIES:
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :noauthor true :nocomment true :nodate true :nopaging true :noread true
+:EXPORT_HUGO_MENU: :menu main
+:EXPORT_HUGO_SECTION: pages
+:EXPORT_HUGO_WEIGHT: auto
+:END:
+
+** about
+:PROPERTIES:
+:EXPORT_FILE_NAME: about.md
+:END:
+
+This is my personal website which serves as a CV, personal spot on the internet
+and a blog all in one. I will upload posts from time to time dealing with
+subjects that I find interesting, mainly in the fields of mathematics, machine
+learning, software and around.
+
+Feel free to get in contact or leave a comment :)
+
+
+* Posts
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts
+:END:
+
+** TODO Happiness review                                       :book_review:
+:PROPERTIES:
+:EXPORT_FILE_NAME: happiness-review
+:END:
+
+
+
+** Topic                                                 :@sysadmin:
+*** TODO Version controlling dotfiles and backup of computer :productivity:
+:PROPERTIES:
+:EXPORT_FILE_NAME: version-control-dotfiles-and-computer-backup
+:END:
+
+** Topic                                                 :@writing:
+*** TODO Sounding smart, being dumb                     :academics:writing:
+:PROPERTIES:
+:EXPORT_FILE_NAME: sounding-smart-being-dumb
+:END:
+
+Blog post about how obfuscating writing by using flowery and waffly language to
+indirectly confuse readers is a bad approach and hurts trying to convey
+information to your audience.
+
+**** Outline
+Working outline something like this
+
+***** Context
+/Less is more/. That's a fitting way to describe the relationship between a text and
+its quality. I have a pretty good grip of the English language having lived in
+the UK for more than 5 years, but one thing I am not particularly happy about is
+how my default way of writing obfuscates rather than clarifies.
+
+I did a maths degree for my undergraduate and it was probably one of the best
+options in terms of the skills I learned and how it changed the way I think. The
+main downside of this is that /it did not prepare me how to write in a clear way
+outside of mathematical and logical arguments/.
+
+This has influenced my writing in a way that I don't think is good for
+explaining concepts in a clear way to others, while also making it seem more
+plausible due to use of mathematical and scientific terms. This together with
+the fact that I don't have experience in writing (blogging or otherwise) makes
+my style dense and hard to grasp possibly mirroring how texts filled with dense
+terminology and equations get the benefit of doubt, for free [cite source].
+
+***** A mathematical proof
+A mathematical proof is a form of logical
+argument, where you put forward your assumptions and then show how these
+assumptions leads to a conclusion. I don't want to talk about what these forms
+of arguments are, but /how they are constructed/ and /the language use when
+writing them/.
+
+Since a proof is a human way of writing the equivalent of logical notation, it
+uses words seldomly used in everyday life, often with an archaic flavour to
+them. A couple of these are words such as
+- Hence
+- Thus
+- Therefore
+and phrases including
+- We see that
+- Due to this
+- Consider the following
+
+***** Solution
+
+* Footnotes
+* COMMENT Local Variables                                           :ARCHIVE:
+# Local Variables:
+# eval: (org-hugo-auto-export-mode)
+# eval: (auto-fill-mode 1)
+# End:

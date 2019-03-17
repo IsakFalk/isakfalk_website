@@ -1,0 +1,67 @@
+baseURL = "http://isakfalk.com/"
+languageCode = "en-uk"
+title = "datafeels"
+theme = "minimal"
+disqusShortname = "isakfalk.com" # delete this to disable disqus comments
+googleAnalytics = "UA-106408402-1"
+
+[params]
+    author = "Isak Falk"
+    description = "Personal website and personal thoughts of Isak Falk"
+    githubUsername = "isakfalk"
+    accent = "#3c87a3"
+    showBorder = true
+    backgroundColor = "#efefef"
+    font = "Source Sans Pro" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "zenburn" # zenburn, gruvbox dark, darkula, tomorrow night eighties
+    highlightLanguages = ["bash", "json", "python", "lisp", "tex"]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/pages/about.md"
+    name = "About"
+    weight = 2
+
+[[menu.main]]
+    url = "/posts/"
+    name = "Posts"
+    weight = 3
+
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 4
+
+[[menu.main]]
+    url = "/talks/"
+    name = "Talks"
+    weight = 5
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "mailto:me@isakfalk.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/isakfalk/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/isakfalk_/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/isak-falk/"
+    name = "linkedin"
+    weight = 4
