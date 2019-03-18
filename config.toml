@@ -1,4 +1,4 @@
-baseURL = "http://isakfalk.com/"
+baseURL = "https://isakfalk.com/"
 languageCode = "en-uk"
 title = "datafeels"
 theme = "minimal"
@@ -7,13 +7,14 @@ googleAnalytics = "UA-106408402-1"
 
 [params]
     author = "Isak Falk"
+    favicon = "/icon-192.jpg"
     description = "Personal website and personal thoughts of Isak Falk"
     githubUsername = "isakfalk"
     accent = "#3c87a3"
     showBorder = true
     backgroundColor = "#efefef"
     font = "Source Sans Pro" # should match the name on Google Fonts!
-    math=true # latex support through KaTeX
+    MathJax = true # latex support through MathJax
     highlight = true
     highlightStyle = "zenburn" # zenburn, gruvbox dark, darkula, tomorrow night eighties
     highlightLanguages = ["bash", "json", "python", "lisp", "tex"]

@@ -16,6 +16,12 @@
 :EXPORT_FILE_NAME: about.md
 :END:
 
+#+NAME:   fig:profile
+#+begin_center
+#+attr_html: :width 50% :height 50%
+[[./static/img/portrait.jpg]]
+#+end_center
+
 This is my personal website which serves as a CV, personal spot on the internet
 and a blog all in one. I will upload posts from time to time dealing with
 subjects that I find interesting, mainly in the fields of mathematics, machine
@@ -39,11 +45,17 @@ Feel free to get in contact or leave a comment :)
 :PROPERTIES:
 :EXPORT_FILE_NAME: version-control-dotfiles-and-computer-backup
 :END:
+*** TODO Test post
+:PROPERTIES:
+:EXPORT_FILE_NAME: test-post
+:END:
 
-Testing out if latex works, \(\sin(x) = \frac{1}{2}\prod_{i=1}^{\infty}\),
+Testing out if latex works, $$\sin(x) = \frac{1}{2}\prod_{i=1}^{\infty}$$, Then
+we have something else like $\mathcal{A} = \iiint f(x) dx$, and then
 \begin{equation}
   y^{2} = x^{2} + z^{2}
 \end{equation}
+
 
 ** Topic                                                 :@writing:
 *** TODO Sounding smart, being dumb                     :academics:writing:
