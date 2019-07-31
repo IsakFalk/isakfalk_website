@@ -1,6 +1,6 @@
 baseURL = "https://isakfalk.com/"
 languageCode = "en-uk"
-title = "datafeels"
+title = "Confused"
 theme = "minimal"
 disqusShortname = "isakfalk.com" # delete this to disable disqus comments
 googleAnalytics = "UA-106408402-1"

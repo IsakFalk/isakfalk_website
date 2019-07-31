@@ -34,6 +34,479 @@ Feel free to get in contact or leave a comment :)
 :EXPORT_HUGO_SECTION: posts
 :END:
 
+** DONE MLSS 2019                                          :mlss:conference: 
+CLOSED: [2019-07-31 Wed 17:13]
+:PROPERTIES:
+:EXPORT_FILE_NAME: mlss-2019
+:END:
+
+I just finished helping out at the [[https://sites.google.com/view/mlss-2019][machine learning summer school 2019]], and
+thought it'd be good to write down what I've learned and what I will take away
+from the experience.
+
+*** Background
+MLSS are summer schools being held all over the world, it's quite amazing to see
+the various summer schools, you can check it out [[http://mlss.cc/][here]]. It is aimed towards
+researchers within ML and neighbouring fields (we had people from data mining,
+control theory, neurosciene to just name a few!) and for them to get exposure to
+other fields within machine learning and forming collaborations and
+friendships.
+
+*** Tutorials and lectures
+The tutorials and lectures were superb. The cohort came with different
+experiences and strengths, so everyone managed to be pretty advanced in some
+lectures while coming at it completely fresh in others. This was great since it
+enabled people to help each other out, explain concepts and ask thoughtful
+questions to the lecturers. In many cases the lecture notes and tutorials came in the day
+before (the horror for me who had to finalise the tutorials, but great as the
+material covered really was cutting edge in most cases) and many of the
+lecturers traveled far in order to be able to teach, so a big thank you to all
+of them!
+
+The lectures were very varied. I come from a maths background and like to bury
+myself in theory and definitions, but I cherish the fact that the lectures
+spanned a large number of fields that varied in how applied they were. On one
+end there were lectures on learning theory, optimisation and kernels, but on the
+other end we got very interesting lectures on interpretability, fairness and
+ML in biology. It's pretty awesome that we managed to cover so much of machine
+learning ground in just two weeks and at least I found some new nuggets of
+understanding I didn't have before.
+
+*** Social aspects
+I've been to conferences and settings before when you put young people in a room
+who has a common cause, and it always seem to work wonders as people start to
+make friends, learn from each other and start discussing how to improve on
+problems that they are facing.
+
+In the case of MLSS a good aspect of the two weeks is that it was long enough to
+let people find their place. After the first week most people seemed to have
+found a group and talked to most of the others about their research, where they
+come from and if people wanted to collaborate. It helped that their was food
+served at the Gatsby Institute which let all of us talk in a less formal setting
+and enjoy the (unusually warm) London sunshine.
+
+*** Social good
+A subset of the lectures dealt with issues such as /how to make ML fair/, /if we
+can make ML fair/ and /how to make ML interpretable/. We even had lectures given
+by external teams, one about the pitfalls and promises of using ML to do
+charitable work and the work done to build the [[https://aimsammi.org/][African Masters in Machine
+Intelligence]] (you can find the screencast of this [[https://www.facebook.com/uclcsml/videos/660414014476090/][here]]. If you want to be a
+mentor, the African Masters in Machine Intelligence is looking for people,
+please contact "toubasourah (at) gmail.com").
+
+We also had people from [[https://www.turing.ac.uk/collaborate-turing/data-science-social-good][DSSG (Data Science For Social Good)]][fn:1] talk about the
+projects that they are doing. In short, DSSG is a summer fellowship that puts
+researchers and industry professionals with quantitative experience but diverse
+backgrounds in teams. The aim is to enable social good by delivering projects
+for charities and governmental institutions using data science and technology.
+If you think this is something that would suit your skillset I would advice you
+to apply, it's pretty competitive so it's also a great thing to have on your CV.
+Always nice when doing the right thing also furthers your career.
+
+I was very pleased at the number of people I spoke to that had opinions on
+whether charity is effective, how to make sure research lead to good societal
+outcomes and how to behave ethically in science. Personally I think that people
+in machine learning is in a better position than most to influence the direction
+of research and opinion, and that we have an obligation to make it so that it is
+going in a good direction and is a net benefit to society and the world.
+
+*** Being a helper
+Helping out was a great experience but also very tiring! Lectures are on from
+9 in the morning each day and activites often went past 6 in the evening.
+Together with social activities (partying...) this makes for a long 2 weeks.
+Then again, no one but myself to blame!
+
+I was generally in charge of the IT infrastructure and also ordered badges and
+Lanyards. Below I'll outline what I did, what went well and what can be improved
+for other summer schools. This is a good list for future helpers!
+
+**** Badges and Lanyards
+I thought this would be a one-day job, but the number of hours I spent
+researching and reaching out to companies took way longer than I thought. We had
+a fixed budget so I was reaching out to printing companies asking if they could
+reach our constraints. It was *surprisingly* hard to get a response and when I
+did, many did not give a direct quote or quoted things way out of our budget.
+
+I finally got a recommendation of [[https://www.go2dave.co.uk/]] and he helped us
+get what we needed within budget, explaining our options and always being
+available when we needed to ask questions. I would really recommend Dave to
+anyone who are doing conferences, hackathons or summer schools.
+
+In the future, It'd be worth thinking about the needed components of prints and
+badges way before thinking of ordering them. Coming from the outside I did not
+know the tools needed to produce files necessary for the printing process. It'd
+have saved me some time if I knew about [[https://en.wikipedia.org/wiki/Bleed_(printing)][bleed]] and how to use tools such as
+[[https://inkscape.org/][Inkscape]] in order to get images and artwork into the proper quality and
+dimensions. Finally it'd have helped to think about keeping the artwork
+lossless, so making sure that the conference save the artwork as [[https://developer.mozilla.org/en-US/docs/Web/SVG][SVG]]
+since this can be converted to other formats easily and plays well with
+Inkscape.
+
+I would also have tried to make a group of the people involved (artwork creator
+and the decision makers, in our case Marc Deisenroth and Arthur Gretton) and
+specify beforehand the needed componenets. This way I wouldn't have had to run
+back and forth between the printing company and take up Marc / Arthur's for
+every little detail.
+
+Nevertheless, we made it! Thanks to Ira for the beautiful artwork (the [[https://sites.google.com/view/mlss-2019/home][moving
+image on the landing page]] and the badge artwork) and to Marc and Arthur for
+being available when I needed to confirm things with them.
+
+**** Reproducible tutorials
+I basically took it on me to do the IT stuff. This was a deliberate decision as
+I like playing around with technology and am very techy. This was also a
+kind of frustrating job (at least it made me appreciate the IT group at UCL,
+thanks for your good work everyday) since not all people will have the same
+baseline understanding of technology and troubleshooting as you do.
+
+My goal was to remove the failure points of the tutorials to the absolute
+minimum. The tutorials were 2 hours long, which might seem like a long time, but
+more often than not people weren't able to finish them. It's such a
+waste of time to dedicate a sizable proportion the time to debug software
+issues when it could be spent on interacting and learning about machine learning
+which is the main focus of the summer school after all.
+
+Most of the tutorials were simply Jupyter Notebooks, but some of them were run
+as python script and we had Julia in one tutorial which made things slightly
+more complicated. Some of the tutorials also required non-trivial installation
+of external software to run, so I wanted to remove this as a potential of stress
+for the participants. 
+
+The way we did this was split into 3 approaches.
+
+***** Conda
+Initially this was done by providing [[https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file][conda environment files]] and writing a part
+in the guide on how to make a conda environment from an environment file. We
+quickly realised that this didn't work as expected as dumping a conda
+environment file from my local conda environment hardcoded the packages as
+binaries which differ between platforms. I got around this by just writing the
+name of the package instead of the full location, for example replacing ~-
+numpy=1.16.4=py37h7e9f1db_0~ with ~-
+numpy~ in the dependencies. You can see the differences by inspecting the
+~mlss_kern.yml~ and ~mlss_gp.yml~ in the [[https://github.com/mlss-2019/tutorials/tree/master/environments][github repo]].
+
+The main drawback of this is that if you require specific software for the
+tutorials to run, you can't do this through Conda. For example, the RL tutorials
+needed [[https://github.com/microsoft/malmo][Malmo]] to run which required Java and minecraft to install properly. I had
+problems on my Linux distribution to get this to work so figured other people
+would to.
+
+***** Colab
+[[https://colab.research.google.com/][Google Colab]] is like a jupyter notebook run on one of Googles servers and worked
+very well for tutorials that used deep learning and GPUs. I think that this would
+actually have worked perfectly fine for most of the tutorials, but I also liked
+to make sure that we had options for the participants.
+
+The downside is that Colab runs in headless (so anything requiring an X server
+or an attached screen such as minecraft) and getting data to it can be a bit
+of a pain unless you know what you are doing.
+
+***** Docker
+This was the best option in terms of reproducibility since you can make sure that
+software play nicely and everything is working. With this you'll be guaranteed
+to be able to run it on someone elses computer as long as they can get docker
+working.
+
+My workflow for docker was as follows:
+1. Base the image of [[https://hub.docker.com/r/jupyter/base-notebook/][jupyter/base-notebook]] using ~FROM jupyter/base-notebook~
+2. Install the necessary things using ~apt-get~
+   - Note that this often result in a very big file as the package manager pulls
+     dependencies of packages you install
+3. Clone the repo with the environment files and notebooks using git
+   - In hindsight this is not the best to do, would probably be better to
+     [[https://docs.docker.com/storage/volumes/][volumes]] to avoid having files in the image that are unnecessary
+4. Install the necessary conda environments
+5. Create a script for running the jupyter notebooks as a server
+6. Create image
+7. Push image to dockerhub
+
+In the beginning I tried to accumulatively add conda environments to the already
+existing image, but this ballooned it up in size (about 6gb+) which is not ideal
+when you have 150 people trying to download it at the same time as it takes long
+and puts stress on the local network. However, it worked exactly as expected and
+was very robust. Problems mostly ocurred when trying to download and install
+docker on Windows machines which I don't know enough to help with.
+
+If I was to redo it, I would create one docker image for each tutorial and keep
+pushing them to docker hub as unique images. Something to keep in mind is that
+the noteooks and tutorial material *will change* and often the night before, so
+doing this is a bit easier since you don't have to rely on rebuilding
+potentially very big docker images when you want to install new conda
+environments. You will also run into you system running out of memory due to how
+docker works. Working with smaller images lets you clean up more efficiently
+since pruning (removing old dangling images) is needed from time to time and
+rebuilding images later will take less time.
+
+*** Things to keep in mind
+*Things will change the night before*. This is just part of it all, lecturers
+have things to do and MLSS is not their only commitment. You can mitigate this
+to some extent but the workflow should be able to accommodate changing
+requirements and last minutes updates.
+
+*** GitHub
+Everything will be available on or linked from the README on the [[https://github.com/mlss-2019][GitHub repo]] in
+due time.
+
+The tutorials and slides are currently publicly available already. My goal is
+to streamline the tutorials and provide the necessary Conda files to run them
+together with the solutions. This is really a treasure trove of information so I
+want this to be freely available to others that could not participate!
+
+I will update with links to the screencast, but here is a [[https://www.facebook.com/pg/uclcsml/videos/?ref=page_internal][link]] for now.
+
+If you have any problem with running the tutorials, do let us know by opening an
+[[https://github.com/mlss-2019/tutorials/issues][issue]] and I will take care of it as fast as I can.
+
+*** Acknowledgements
+Finally, thanks everyone for making the MLSS happen. Special thanks for Arthur
+Gretton and Marc Deisenroth for organising it in the first place, thank you to
+all of the lecturers that took time to be here and interact with the students
+and thank you to all my [[https://sites.google.com/view/mlss-2019/organization-and-contact][fellow helpers and admin]]. Thank you to the UCL staff for
+the screencast and being available. 
+
+And of course thank you to all participants that made MLSS great.
+
+*** Link to other blogs
+[[https://yousef-ellaham.com/2019/07/29/making-brain-gains-at-mlss-2019/][Yousef H. El-Laham]]
+** TODO Student-t processes            :gaussian_processes:machine_learning: 
+:PROPERTIES:
+:EXPORT_FILE_NAME: student-t-process
+:END:
+
+
+
+** TODO Numpy tricks                           :numpy:tricks:linear_algebra: 
+:PROPERTIES:
+:EXPORT_FILE_NAME: numpy-tricks
+:END:
+
+Add numpy tricks which has made my life easier. One is np.ix_
+
+** TODO Introduction to Grammar of Graphics :visualisation:data_sciece: 
+:PROPERTIES:
+:EXPORT_FILE_NAME: introduction-to-grammar-of-graphics
+:END:
+
+
+
+** TODO Defining your own latex macros                   :latex:org:writing: 
+:PROPERTIES:
+:EXPORT_FILE_NAME: defining-your-own-latex-macros
+:END:
+
+*** Supercharge your technical writing
+LaTeX is a set of macros built on top of the typesetting TeX language created by
+D. Knuth a long time ago. If you have used it, you probably know that it creates
+beautiful documents out of the box and gives you the power to mix your writing
+with mathematical symbols and characters and words in different colours, fonts
+and sizes.
+
+If you have not used it and you work in the sciences (or just enjoy wasting time
+on beautifully typeset documents, I don't judge, honest!), consider trying it
+out, [[https://overleaf.com]] is a good online editor to get you started.
+
+This post is not about LaTeX per se, but how to go from latex beginner to a
+latex intermediate. This was motivated by my own decision to finally create a
+personal package holding macros and shortcuts I've defined or borrowes that
+makes my life a little bit easier when writing mathematics (which I do a lot
+since due to my PhD which involves a lot of maths).
+
+*** What is a macro
+A macro is a fancy word for a kind of function (well, not really, but kind of)
+that substitutes itself by other text which a program then can compile. In our
+setting, it's a very convenient way for giving commonly used notation or symbols
+shortcuts that will be substituted by the actual technical syntax when we
+compile the document. If you didn't follow, don't worry, just think of them as
+functions. from here on I will call these macros for /commands/, and since I do
+not know LaTeX inside out, take what I say with a grain of salt (at least for
+now, until I know that my terminology please the LaTeX gods).
+
+Using LaTex, we can define commands inside the same file where we are writing,
+the ~.tex~ file. However, this is bad in the long run, as it leads to copy
+pasting code and leads to probable corruption as we tweak the commands we
+define. It is better and easier to keep the commands that you commonly use in a
+package which can then be loaded as any other package w
+
+*** Creating a package
+A package is a file with an ending =.sty= that includes custom commands and
+macros bundled together to a specific task easier or possible. Latex has a great
+range of packages which lets you do things such as including links and
+creating mathematical equations. 
+
+**** Insides of a machine learning PhD's .sty file
+My writing consists of a lot of special characters and letters in different
+fonts in order to specify different mathematical spaces and operations. These
+are all possible to write directly in a tex file using latex and packages
+defined in the preamble, but writing these explicitly are error prone and
+gets old really fast. Another great advantage is that by defining a macro that
+specifies a special /thing/, which in my case often reduce to functionl spaces
+\(\mathcal{G}\), \(\mathcal{F}\), special norms
+\(\text{MMD}_{\mathcal{H}}(\mathbb{P}, \mathbb{Q})\) and vectors \(\mathsf{x}\).
+
+To make this concrete, consider the underlying text needed to specify the above
+specially rendered characters
+- ~\mathcal{G}~ and ~\mathcal{F}~ are the raw typed inputs for \(\mathcal{G}\) and \(\mathcal{F}\)
+- ~\text{MMD}_{\mathcal{H}}(\mathbb{P}, \mathbb{Q})~ the raw typed input for \(\text{MMD}_{\mathcal{H}}(\mathbb{P}, \mathbb{Q}}\0
+- ~\mathsf{x}~ the raw typed input for \(\mathsf{x}\)
+which is a lot of typed characters for a few mathematical objects. A scientific
+article might contain hundreds of these and having consistently defined macros
+for this helps a lot in keeping your .tex files clean and making the modular.
+
+The modularity is important in particular, by letting the macro specify a
+/concept/ you distinguish between writing out the concept itself, and the
+specific notation you choose. If you are writing and decide to use
+\(\mathcal{G}\) to represent a concept that is used a lot within your document,
+you can easily change the look of it by simply redefning the macro. For example,
+if you think that \(\mathbb{H}\) would be a better look or is a more widely used
+way to write it, it is as simple as going into your .sty file and change the
+command there.
+
+I inherited my file from an academic friend but it comes with a lot of handy
+packages for writing reports. Let's break it down:
+
+#+CAPTION: Beginning of document
+#+begin_example
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{isak}[2019/05/20 v0.1]
+#+end_example
+
+The first thing needed is to tell latex that this file will provide a packge,
+which I have aptly named /isak/. This means that after updating the latex
+package database on my computer, I can import it in any ~.tex~ file by using
+~\usepackage{isak}~ macro to import it. Any dependencies in terms of packages
+that the ~.sty~ file relies on need to be defined by using the ~\RequirePackage~
+macro. For example, I write a lot of maths, so my package relies on maths
+package for defining operators and derivatives.
+
+#+CAPTION: Maths package dependencies of my package
+#+begin_example
+% Definitions, symbols and theorem-like environmenst
+\RequirePackage{amsmath,amssymb,amsthm}
+\RequirePackage[nameinlink,capitalize]{cleveref}
+\RequirePackage{thmtools}
+\RequirePackage{physics}
+#+end_example
+
+***** Defining theorems
+For defining theorem-like environments I use the /thmtools/ package, which
+provide useful commands and macros for defining nice theorems, corollaries,
+lemmas and other useful passages used in mathematics to convey relationships and
+facts to the reader. Below are the defined environments
+
+#+CAPTION: Very useful for writing maths!
+#+begin_example
+\declaretheorem[name=Theorem,refname=Thm.]{theorem}
+\declaretheorem[name=Lemma,sibling=theorem]{lemma}
+\declaretheorem[name=Fact,sibling=theorem]{fact}
+\declaretheorem[name=Proposition,refname=Prop.,sibling=theorem]{proposition}
+\declaretheorem[name=Remark]{remark}
+\declaretheorem[name=Corollary,refname=Cor.,sibling=theorem]{corollary}
+\declaretheorem[name=Definition,refname=Def.]{definition}
+\declaretheorem[name=Conjecture,sibling=theorem]{conjecture}
+\declaretheorem[name=Axiom]{axiom}
+\declaretheorem[name=Assumption,refname=Asm.]{assumption}
+\declaretheorem[name=Example]{example}
+#+end_example
+
+Breaking this down, /thmtools/ define a command called ~\declaretheorem~ that
+lets you define your own environments similar to theorems used in mathematics.
+For example, ~\declaretheorem[name=Truth, refname=Tru., sibling=theorem]{truth}~
+defined a latex environment which can be called with
+
+#+begin_example
+\begin{truth}
+\label{tr:isak-is-latex-wizard}
+I am a latex wizard.
+\end{truth}
+#+end_example
+rendering as
+#+begin_export latex
+\begin{truth}
+\label{tr:isak-is-latex-wizard}
+I am a latex wizard.
+\end{truth}
+#+end_export
+
+As we can see, the ~name~ option defines how the environment will be captioned
+by latex while ~refname~ and ~sibling~ defines how it will be referenced, as in
+~\ref{tr:isak-is-latex-wizard}~ which will look like
+\(\ref{tr:isak-is-latex-wizard}\), and what group of environments it will be
+sharing a counter with.
+
+***** Commands
+My commands are almost entirely to do with mathematics. This is a bit misleading
+though, what I will show you can apply to all kinds of fancy shortcuts applied
+to your particular workflow. 
+
+The primitives that make up a package is slightly different from what makes up a
+=.tex= file. Three important commands are the macros
+- ~\newcommand~
+- ~\renewcommand~
+- ~\providecommand~
+which enables you to define shortcuts for commonly types combinations of
+characters. These commands essentially do the same thing, but have different
+checks in place to look if a command has already be defined. ~\newcommand~
+defines a new command macro and will complain if this command is already defined
+either by latex or some other code including yours, ~\renewcommand~ will do the
+same but redefine the macro if it already defined and finally ~\providecommand~
+will define the command if it is not already defined, in which case it will
+silently do nothing. This is important since TeX uses certain special commands
+in order to generate compile the tex file to the output format of your choice
+(look this up, sounds reasonable).
+
+For example, to save me from typing ~\hat{\mathcal{E}}_{P}(h)~ I have defined
+the command
+
+#+begin_example
+\newcommand{\errh}[2]{\ensuremath{\hat{\mathcal{E}}_{#1}(#2)}}
+#+end_example
+
+which is a way for defining commands with arbitrary arguments, where the square
+bracket ~[2]~ means that the command ~\errh~ takes two arguments, and what Latex
+will actually compile for ~\errh{P}{h}~ is what I did before,
+~\hat{\mathcal{E}}_{P}(h)~. One final thing, the ~\ensuremath~ is a safeguard to
+make sure the command plays nice outside of maths environments (LOOK THIS UP).
+
+Sometimes we want the mathematical operators to behave differently than other
+text in latex. For example, it looks nice for \(\argmax\) to be subscripted like
+this \(\argmax_{C}\) compared to this \(\text{argmax}_{C}\). For this we can use
+~\DeclareMathOperator*~ from the AMS package (which one? look up) which will
+fix this for us automatically. In particular, it would look like this
+~\DeclareMathOperator*{\argmax}{\ensuremath{arg\,max}}~, where the ~\,~ gives
+the argmax operator a bit of space in the middle.
+
+
+*** Links
+- [[http://texdoc.net/texmf-dist/doc/latex/dtxtut/dtxtut.pdf][How to package latex]]
+- [[https://www.latex-project.org/help/documentation/clsguide.pdf][Latex for package writers]]
+
+** TODO How software packaging works          :software:code: 
+:PROPERTIES:
+:EXPORT_FILE_NAME: how-software-packagin-works
+:END:
+
+
+
+** TODO Fetching events from ical files                          :org:emacs:
+:PROPERTIES:
+:EXPORT_FILE_NAME: fetch-events-from-ical
+:END:
+
+
+
+** TODO implementation of kernel herding in python :python:machine_learning:
+:PROPERTIES:
+:EXPORT_FILE_NAME: kernel-herding
+:END:
+
+*** Introduction
+
+*** Algorithm and link to Frank-Wolfe
+
+*** Implementation of package in Python
+
+*** Implementation of package in Julia
+
 ** TODO Happiness review                                       :book_review:
 :PROPERTIES:
 :EXPORT_FILE_NAME: happiness-review
@@ -55,7 +528,6 @@ we have something else like $\mathcal{A} = \iiint f(x) dx$, and then
 \begin{equation}
   y^{2} = x^{2} + z^{2}
 \end{equation}
-
 
 ** Topic                                                 :@writing:
 *** TODO Sounding smart, being dumb                     :academics:writing:
@@ -108,7 +580,20 @@ and phrases including
 
 ***** Solution
 
+** Topic                                                 :@machine_learning:
+*** TODO hidden bernoulli model                                   :hidden_markov_model:
+:PROPERTIES:
+:EXPORT_FILE_NAME: hidden-bernoulli-model
+:END:
+*** TODO The relevance vector machine
+:PROPERTIES:
+:EXPORT_FILE_NAME: relevance-vector-machine
+:END:
+
+
 * Footnotes
+
+[fn:1] If you are in the US, check out the [[https://dssg.uchicago.edu/][UoC website]]. 
 * COMMENT Local Variables                                           :ARCHIVE:
 # Local Variables:
 # eval: (org-hugo-auto-export-mode)
