@@ -34,6 +34,20 @@ Feel free to get in contact or leave a comment :)
 :EXPORT_HUGO_SECTION: posts
 :END:
 
+** TODO Using emacs-jupyter as an IDE for emacs                      :emacs:
+:PROPERTIES:
+:EXPORT_FILE_NAME: emacs-jupyter-programming-workflow
+:END:
+
+
+
+** TODO Using DITAA and org mode for schemas                           :org:
+:PROPERTIES:
+:EXPORT_FILE_NAME: ditaa-with-org-mode
+:END:
+
+
+
 ** DONE MLSS 2019                                          :mlss:conference: 
 CLOSED: [2019-07-31 Wed 17:13]
 :PROPERTIES:
@@ -247,19 +261,15 @@ requirements and last minutes updates.
 Everything will be available on or linked from the README on the [[https://github.com/mlss-2019][GitHub repo]] in
 due time.
 
-The tutorials and slides are currently publicly available already. My goal is
-to streamline the tutorials and provide the necessary Conda files to run them
-together with the solutions. This is really a treasure trove of information so I
-want this to be freely available to others that could not participate!
-
-I will update with links to the screencast, but here is a [[https://www.facebook.com/pg/uclcsml/videos/?ref=page_internal][link]] for now.
+The tutorials and slides are currently publicly available already.
 
 If you have any problem with running the tutorials, do let us know by opening an
 [[https://github.com/mlss-2019/tutorials/issues][issue]] and I will take care of it as fast as I can.
 
 *** Acknowledgements
 Finally, thanks everyone for making the MLSS happen. Special thanks for Arthur
-Gretton and Marc Deisenroth for organising it in the first place, thank you to
+Gretton and Marc Deisenroth (who also wanted to acknowledge my contribution of
+the Slack emojiof MLSS2019!) for organising it in the first place, thank you to
 all of the lecturers that took time to be here and interact with the students
 and thank you to all my [[https://sites.google.com/view/mlss-2019/organization-and-contact][fellow helpers and admin]]. Thank you to the UCL staff for
 the screencast and being available. 
@@ -268,28 +278,8 @@ And of course thank you to all participants that made MLSS great.
 
 *** Link to other blogs
 [[https://yousef-ellaham.com/2019/07/29/making-brain-gains-at-mlss-2019/][Yousef H. El-Laham]]
-** TODO Student-t processes            :gaussian_processes:machine_learning: 
-:PROPERTIES:
-:EXPORT_FILE_NAME: student-t-process
-:END:
 
-
-
-** TODO Numpy tricks                           :numpy:tricks:linear_algebra: 
-:PROPERTIES:
-:EXPORT_FILE_NAME: numpy-tricks
-:END:
-
-Add numpy tricks which has made my life easier. One is np.ix_
-
-** TODO Introduction to Grammar of Graphics :visualisation:data_sciece: 
-:PROPERTIES:
-:EXPORT_FILE_NAME: introduction-to-grammar-of-graphics
-:END:
-
-
-
-** TODO Defining your own latex macros                   :latex:org:writing: 
+** TODO Defining your own latex macros                   :latex:org:writing:
 :PROPERTIES:
 :EXPORT_FILE_NAME: defining-your-own-latex-macros
 :END:
@@ -480,116 +470,10 @@ the argmax operator a bit of space in the middle.
 - [[http://texdoc.net/texmf-dist/doc/latex/dtxtut/dtxtut.pdf][How to package latex]]
 - [[https://www.latex-project.org/help/documentation/clsguide.pdf][Latex for package writers]]
 
-** TODO How software packaging works          :software:code: 
-:PROPERTIES:
-:EXPORT_FILE_NAME: how-software-packagin-works
-:END:
-
-
-
 ** TODO Fetching events from ical files                          :org:emacs:
 :PROPERTIES:
 :EXPORT_FILE_NAME: fetch-events-from-ical
 :END:
-
-
-
-** TODO implementation of kernel herding in python :python:machine_learning:
-:PROPERTIES:
-:EXPORT_FILE_NAME: kernel-herding
-:END:
-
-*** Introduction
-
-*** Algorithm and link to Frank-Wolfe
-
-*** Implementation of package in Python
-
-*** Implementation of package in Julia
-
-** TODO Happiness review                                       :book_review:
-:PROPERTIES:
-:EXPORT_FILE_NAME: happiness-review
-:END:
-
-
-** Topic                                                 :@sysadmin:
-*** TODO Version controlling dotfiles and backup of computer :productivity:
-:PROPERTIES:
-:EXPORT_FILE_NAME: version-control-dotfiles-and-computer-backup
-:END:
-*** TODO Test post
-:PROPERTIES:
-:EXPORT_FILE_NAME: test-post
-:END:
-
-Testing out if latex works, $$\sin(x) = \frac{1}{2}\prod_{i=1}^{\infty}$$, Then
-we have something else like $\mathcal{A} = \iiint f(x) dx$, and then
-\begin{equation}
-  y^{2} = x^{2} + z^{2}
-\end{equation}
-
-** Topic                                                 :@writing:
-*** TODO Sounding smart, being dumb                     :academics:writing:
-:PROPERTIES:
-:EXPORT_FILE_NAME: sounding-smart-being-dumb
-:END:
-
-Blog post about how obfuscating writing by using flowery and waffly language to
-indirectly confuse readers is a bad approach and hurts trying to convey
-information to your audience.
-
-**** Outline
-Working outline something like this
-
-***** Context
-/Less is more/. That's a fitting way to describe the relationship between a text and
-its quality. I have a pretty good grip of the English language having lived in
-the UK for more than 5 years, but one thing I am not particularly happy about is
-how my default way of writing obfuscates rather than clarifies.
-
-I did a maths degree for my undergraduate and it was probably one of the best
-options in terms of the skills I learned and how it changed the way I think. The
-main downside of this is that /it did not prepare me how to write in a clear way
-outside of mathematical and logical arguments/.
-
-This has influenced my writing in a way that I don't think is good for
-explaining concepts in a clear way to others, while also making it seem more
-plausible due to use of mathematical and scientific terms. This together with
-the fact that I don't have experience in writing (blogging or otherwise) makes
-my style dense and hard to grasp possibly mirroring how texts filled with dense
-terminology and equations get the benefit of doubt, for free [cite source].
-
-***** A mathematical proof
-A mathematical proof is a form of logical
-argument, where you put forward your assumptions and then show how these
-assumptions leads to a conclusion. I don't want to talk about what these forms
-of arguments are, but /how they are constructed/ and /the language use when
-writing them/.
-
-Since a proof is a human way of writing the equivalent of logical notation, it
-uses words seldomly used in everyday life, often with an archaic flavour to
-them. A couple of these are words such as
-- Hence
-- Thus
-- Therefore
-and phrases including
-- We see that
-- Due to this
-- Consider the following
-
-***** Solution
-
-** Topic                                                 :@machine_learning:
-*** TODO hidden bernoulli model                                   :hidden_markov_model:
-:PROPERTIES:
-:EXPORT_FILE_NAME: hidden-bernoulli-model
-:END:
-*** TODO The relevance vector machine
-:PROPERTIES:
-:EXPORT_FILE_NAME: relevance-vector-machine
-:END:
-
 
 * Footnotes
 

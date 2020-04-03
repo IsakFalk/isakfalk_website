@@ -1,7 +1,7 @@
 +++
 title = "About"
 author = ["Isak Falk"]
-lastmod = 2019-03-17T23:46:42+00:00
+lastmod = 2019-07-30T11:37:33+01:00
 draft = false
 weight = 2001
 noauthor = true
